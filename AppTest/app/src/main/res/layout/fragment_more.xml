@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <LinearLayout
+        android:id="@+id/moreFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".fragment.MoreFragment">
+
+        <RelativeLayout
+            android:id="@+id/myListMain"
+            style="@style/moreRelStyle">
+
+            <TextView
+                android:id="@+id/myList"
+                style="@style/moretxtStyle"
+                android:text="@string/my_list" />
+
+            <ImageView
+                style="@style/arrowImgStyle"
+                tools:ignore="ContentDescription" />
+
+            <View
+                style="@style/viewStyle"
+                android:layout_below="@id/myList" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/profileMain"
+            style="@style/moreRelStyle">
+
+            <TextView
+                android:id="@+id/profile"
+                style="@style/moretxtStyle"
+                android:text="Profile" />
+
+            <ImageView
+                style="@style/arrowImgStyle"
+                tools:ignore="ContentDescription" />
+
+            <View
+                style="@style/viewStyle"
+                android:layout_below="@id/profile" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/subscriptionMain"
+            style="@style/moreRelStyle">
+
+            <TextView
+                android:id="@+id/subscription"
+                style="@style/moretxtStyle"
+                android:text="Subscription" />
+
+            <ImageView
+                style="@style/arrowImgStyle"
+                tools:ignore="ContentDescription" />
+
+            <View
+                style="@style/viewStyle"
+                android:layout_below="@id/subscription" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/aboutusMain"
+            style="@style/moreRelStyle">
+
+            <TextView
+                android:id="@+id/aboutus"
+                style="@style/moretxtStyle"
+                android:text="About Us" />
+
+            <ImageView
+                style="@style/arrowImgStyle"
+                tools:ignore="ContentDescription" />
+
+            <View
+                style="@style/viewStyle"
+                android:layout_below="@id/aboutus" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/myFavouriteMain"
+            style="@style/moreRelStyle">
+
+            <TextView
+                android:id="@+id/myFavourite"
+                style="@style/moretxtStyle"
+                android:text="My Favourite" />
+
+            <ImageView
+                style="@style/arrowImgStyle"
+                tools:ignore="ContentDescription" />
+
+            <View
+                style="@style/viewStyle"
+                android:layout_below="@id/myFavourite" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/helpMain"
+            style="@style/moreRelStyle">
+
+            <TextView
+                android:id="@+id/help"
+                style="@style/moretxtStyle"
+                android:text="Help" />
+
+            <ImageView
+                style="@style/arrowImgStyle"
+                tools:ignore="ContentDescription" />
+
+            <View
+                style="@style/viewStyle"
+                android:layout_below="@id/help" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/contactusMain"
+            style="@style/moreRelStyle">
+
+            <TextView
+                android:id="@+id/contactus"
+                style="@style/moretxtStyle"
+                android:text="Contact Us" />
+
+            <ImageView
+                style="@style/arrowImgStyle"
+                tools:ignore="ContentDescription" />
+
+            <View
+                style="@style/viewStyle"
+                android:layout_below="@id/contactus" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/logoutMain"
+            style="@style/moreRelStyle">
+
+            <TextView
+                android:id="@+id/logout"
+                style="@style/moretxtStyle"
+                android:text="Logout" />
+
+            <ImageView
+                style="@style/arrowImgStyle"
+                tools:ignore="ContentDescription" />
+
+            <View
+                style="@style/viewStyle"
+                android:layout_below="@id/logout" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/versionMain"
+            style="@style/moreRelStyle">
+
+            <TextView
+                android:id="@+id/version"
+                style="@style/moretxtStyle"
+                android:text="@string/version_v1_0" />
+
+            <ImageView
+                style="@style/arrowImgStyle"
+                tools:ignore="ContentDescription" />
+
+            <View
+                style="@style/viewStyle"
+                android:layout_below="@id/version" />
+        </RelativeLayout>
+    </LinearLayout>
+</layout>

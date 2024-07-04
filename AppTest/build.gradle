@@ -1,0 +1,42 @@
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
+
+buildscript {
+    ext {
+        modulePrefix = ':'
+        if (gradle.ext.has('exoplayerModulePrefix')) {
+            modulePrefix += gradle.ext.exoplayerModulePrefix
+        }
+    }
+    repositories {
+        maven { url 'https://maven.google.com' }
+        google()
+        jcenter()
+    }
+    if (it.hasProperty('externalBuildDir')) {
+        if (!new File(externalBuildDir).isAbsolute()) {
+            externalBuildDir = new File(rootDir, externalBuildDir)
+        }
+        buildDir = "${externalBuildDir}/${project.name}"
+    }
+    group = 'com.google.android.exoplayer'
+    dependencies {
+        classpath 'com.android.tools.build:gradle:4.1.1'
+        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:1.4.10"
+        classpath "android.arch.navigation:navigation-safe-args-gradle-plugin:1.0.0"
+        classpath 'com.jfrog.bintray.gradle:gradle-bintray-plugin:1.8.4'
+        classpath 'com.novoda:bintray-release:0.9.1'
+        classpath 'com.google.android.gms:strict-version-matcher-plugin:1.2.2'
+    }
+}
+
+allprojects {
+    repositories {
+        google()
+        jcenter()
+
+    }
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}

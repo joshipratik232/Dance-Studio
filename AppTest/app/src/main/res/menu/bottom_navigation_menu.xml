@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/homeFragment"
+        android:enabled="true"
+        android:icon="@drawable/ic_home_white_24dp"
+        android:title="@string/home" />
+
+    <item
+        android:id="@+id/profileFragment"
+        android:enabled="true"
+        android:icon="@drawable/ic_person_24px"
+        android:title="@string/profile" />
+
+    <item
+        android:id="@+id/downloadsFragment"
+        android:enabled="true"
+        android:icon="@drawable/ic_get_app_24px"
+        android:title="@string/downloads" />
+
+    <item
+        android:id="@+id/notificationFragment"
+        android:enabled="true"
+        android:icon="@drawable/ic_notifications_24px"
+        android:title="@string/notification" />
+
+    <item
+        android:id="@+id/moreFragment"
+        android:enabled="true"
+        android:icon="@drawable/ic_more_horiz_24px"
+        android:title="@string/more" />
+</menu>
