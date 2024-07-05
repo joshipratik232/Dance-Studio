@@ -1,3 +1,12 @@
+MAD Scorecard of Dance Studio. Given by Google.
+<p float="left" align="center">
+  <img src="https://github.com/joshipratik232/Dance-Studio/blob/master/Screenshots/mad.jpeg" width="30%" height="40%"/>
+  <img src="https://github.com/joshipratik232/Dance-Studio/blob/master/Screenshots/mad2.jpeg" width="30%" height="40%"/>
+  <img src="https://github.com/joshipratik232/Dance-Studio/blob/master/Screenshots/mad3.jpeg" width="30%" height="40%"/>
+</p>
+</br>
+Screenshots : 
+<br></br>
 <p float="left" align="center">
   <img src="https://github.com/joshipratik232/Dance-Studio/blob/master/Screenshots/Login.jpg" width="30%" height="20%"/>
   <img src="https://github.com/joshipratik232/Dance-Studio/blob/master/Screenshots/Register.jpg" width="30%" height="20%"/> 
